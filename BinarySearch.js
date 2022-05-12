@@ -41,7 +41,7 @@ if(validnum)
 		var arr=[];
 		for(var i=0;i<num;i++)
 		{
-			arr[i]=prompt("enter the array elements");
+			arr[i]=parseInt(prompt("enter the array elements"));
 		}
 		let no=parseInt(prompt("enter the given serching number"));
 		let iRet=Binary(arr,no);
